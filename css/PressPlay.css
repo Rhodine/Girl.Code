@@ -1,16 +1,37 @@
+<!-- Changed the font and added more styles -->
+
 head{
   background-color: black;
   font: white;
+  font-family: HelveticaNeue-Light;
 }
 body{
   background-color: black;
-}
+  text-align: center;
+  font-family: HelveticaNeue-Light;
+  font-weight: 300;
 
+}
+input {
+      border:0;
+      padding:10px;
+      font-size:18px;
+    }
 img{
   width: 100px;
   padding-left: 10px;
-
+  margin: 40px 40px 40px 40px;
 }
+
+p {
+  text-align: center;
+  font-size:23px;
+}
+
+h1 {
+  font-size: 70px;
+}
+
 
 .navbar{
   position:relative;
