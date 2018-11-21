@@ -1,17 +1,16 @@
-<!-- Changed the font and added more styles -->
-
 head{
   background-color: black;
   font: white;
   font-family: HelveticaNeue-Light;
 }
+
 body{
   background-color: black;
   text-align: center;
   font-family: HelveticaNeue-Light;
   font-weight: 300;
-
 }
+
 input {
       border:0;
       padding:10px;
@@ -113,6 +112,10 @@ h1 {
   width: 25%;
   animation: shake 0.5s;
   animation-iteration-count: infinite;
+}
+
+.media {
+  padding: 10px 10px 10px 10px;
 }
 
 @keyframes shake {
