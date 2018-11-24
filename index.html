@@ -5,36 +5,17 @@
     <title>Press Play - Home</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/PressPlay.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width,
   initial-scale=1.0">
-  <style type="text/css">
-    head{
-      background-color: #ff9999;
-      color: white;
-    }
-    body{
-      background-color: #ff9999;
-    }
-    main{
-    background-color: black;
-    margin: auto;
-    width: 98%;
-    margin-top: 100px;
-    border: 3px solid #white;
-    padding: 10px;
-    margin-left: 1%;
-    margin-right: auto;
-    border-radius: 25px;
-}
-</style>
   </head>
   <body>
     <header>
     <div class="navbar">
-      <img src="images/Logo.png" alt="logo"/>
-      <a  href="index.html" class= "active">Home</a>
+      <img src="images/Logo.png" alt="logo" class="navlogo"/>
+      <a href="index.html" class= "active">Home</a>
       <a href="about.html" class="active">About</a>
       <div class="dropdown">
           <a href="Genres.html">Genres</a>
@@ -42,8 +23,8 @@
         <div class="dropdown-content">
           <a href="Classics.html">Action</a>
           <a href="Comedy.html">Comedy</a>
-          <a href="Modern.html">Romance</a>
           <a href="PeriodDramas.html">Period Dramas</a>
+          <a href="Romance.html">Romance</a>
           <a href="RagstoRiches.html">Rags to Riches</a>
         </div>
       </div>
@@ -54,7 +35,7 @@
           <a href="Asia.html">Asia</a>
         </div>
       </div>
-      <a href="request.html">Request</a>
+      <a href="request.html">Blog/News</a>
       <input type="text" placeholder="Search">
     </div>
   </header>
@@ -73,43 +54,63 @@
             <li data-target="#myCarousel" data-slide-to="4"></li>
             <li data-target="#myCarousel" data-slide-to="5"></li>
             <li data-target="#myCarousel" data-slide-to="6"></li>
+            <li data-target="#myCarousel" data-slide-to="7"></li>
           </ol>
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="video item active">
-            <video controls="">
-              <source src="videos/papa.mp4" type="video/mp4" style="width:100%"/>
+            <video controls="" poster="images/PapaAT.jpg">
+              <source src="videos/papa.mp4" type="video/mp4" style="width:100%;"/>
               Your browser does not support the video tag
             </video>
           </div>
 
           <div class="video item">
-            <video controls="">
+            <video controls="" poster="images/BellaCalamidades.jpg">
               <source src="videos/BellaCalamidades.mp4" type="video/mp4" style="width:100%"/>
               Your browser does not support the video tag
             </video>
           </div>
 
             <div class="video item">
-              <video controls="">
-                <source src="videos/videoplayback.mp4" type="video/mp4" style="width:100%"/>
+              <video controls="" poster="images/LosMiserables.jpg">
+                <source src="videos/videoplayback.mp4" type="video/mp4" style="width:100%;"/>
                 Your browser does not support the video tag
               </video>
             </div>
 
-            <div class="item">
-              <img id="cimg" src="images/Quien.jpg" alt="Quien es Quien"style="width:100%">
-            </div>
-            <div class="item">
-              <img id="cimg" src="images/MiExMeTiene.jpg" alt="Mi Ex Me Tiene Ganas"style="width:100%">
-            </div>
-            <div class="item">
-              <img id="cimg" src="images/tierradereyes.jpg" alt="Tierra de Reyes"style="width:100%">
-            </div>
             <div class="video item">
-              <video controls="">
-                <source src="videos/ElHotel.mp4" type="video/mp4" style="width:100%"/>
+              <video controls="" poster="images/Quien.jpg">
+                <source src="videos/Quienes.mp4" type = "video/mp4" style="width:100%;"/>
+                Your browser does not support the video tag
+              </video>
+            </div>
+
+            <div class="video item">
+              <video controls="" poster="images/Reina.jpg">
+                <source src="videos/Reina.mp4" type="video/mp4" style="width:100%"/>
+                Your browser does not support the video tag
+              </video>
+            </div>
+
+            <div class="video item">
+              <video controls="" poster="images/tierradereyes.jpg">
+                <source src="videos/Tierra.mp4" type="video/mp4" style="width:100%;"/>
+                Your browser does not support the video tag
+              </video>
+            </div>
+
+            <div class="video item">
+              <video controls="" poster="images/ElHotel.jpg">
+                <source src="videos/ElHotel.mp4" type="video/mp4" style="width:100%;"/>
+                Your browser does not support the video tag
+              </video>
+            </div>
+
+            <div class="video item">
+              <video controls="" poster="images/Rostro.jpg">
+                <source src="videos/Rostro.mp4" type="video/mp4" style="width:;"/>
                 Your browser does not support the video tag
               </video>
             </div>
@@ -131,6 +132,10 @@
     </main>
     <footer>
       <p>&copy 2018. All rights reserved.</p>
+      <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/" class="fa fa-twitter"></a>
+      <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+      <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
     </footer>
   </body>
 </html>
