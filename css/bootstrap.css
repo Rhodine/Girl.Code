@@ -1115,6 +1115,16 @@ figure {
 img {
   vertical-align: middle;
 }
+#cimg{
+  position: relative;
+  float: left;
+  width:  690px;
+  height: 400px;
+  align-content: center;
+  background-position: 50% 50%;
+  background-repeat:   no-repeat;
+  background-size:     cover;
+}
 .img-responsive,
 .thumbnail > img,
 .thumbnail a > img,
@@ -4063,7 +4073,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .nav-tabs.nav-justified > li > a {
     margin-bottom: 0;
   }
-}
 .nav-tabs.nav-justified > li > a {
   margin-right: 0;
   border-radius: 4px;
