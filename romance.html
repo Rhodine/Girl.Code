@@ -5,122 +5,43 @@
     <title>Press Play - Romance</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/PressPlay.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/jquery-3.3.1.min.js"></script>
-    <meta name="viewport" content="width=device-width,
-  initial-scale=1.0">
-  <link rel="stylesheet" href="blueberry.css"/>
-
-  <script src="jquery.blueberry.js"></script>
-  <script>
-$(window).load(function() {
-  $('.blueberry').blueberry();
-});
-  </script>
-  <style type="text/css">
-    head{
-      background-color: #ff9999;
-      color: white;
-    }
-    body{
-      background-color: #ff9999;
-    }
-    main{
-      background-color: black;
-    margin: auto;
-    width: 98%;
-    margin-top: 100px;
-    border: 3px solid #white;
-    padding: 10px;
-    margin-left: 1%;
-    margin-right: auto;
-    border-radius: 25px;
-
-}
-.column {
-  float: left;
-  width: 25%;
-  padding: 5px;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 25%;
-  padding: 7px;
-}
-@media screen and (max-width: 500px) {
-  .column {
-    width: 100%;
-  }
-</style>
-
-  <style>
-  img:hover {
-      animation: shake 0.5s;
-      animation-iteration-count: infinite;
-  }
-
-  @keyframes shake {
-      0% { transform: translate(1px, 1px) rotate(0deg); }
-      10% { transform: translate(-1px, -2px) rotate(-1deg); }
-      20% { transform: translate(-3px, 0px) rotate(1deg); }
-      30% { transform: translate(3px, 2px) rotate(0deg); }
-      40% { transform: translate(1px, -1px) rotate(1deg); }
-      50% { transform: translate(-1px, 2px) rotate(-1deg); }
-      60% { transform: translate(-3px, 1px) rotate(0deg); }
-      70% { transform: translate(3px, 1px) rotate(-1deg); }
-      80% { transform: translate(-1px, -1px) rotate(1deg); }
-      90% { transform: translate(1px, 2px) rotate(0deg); }
-      100% { transform: translate(1px, -2px) rotate(-1deg); }
-  }
-    }
-    input{
-      background-color: #ff9999;
-      font-family: monospace;
-      border-radius: 25px;
-      border: 2px solid #73AD21;
-      padding: 20px;
-      width: 200px;
-      height: 150px;
-    }
-
-</style>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="jquery.blueberry.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
   <body>
-<header>
+    <header>
     <div class="navbar">
-        <img src="images/Logo.png" alt="logo"/>
-      <a  href="index.html" class= "active">Home</a>
-      <a href="about.html" class="active">About</a>
-      <div class="dropdown"><a href="Genres.html">Genres</a>
-          <i class="fa fa-caret-down"></i>
+      <img src="images/Logo.png" alt="logo" class="navlogo">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+        <div class="dropdown">
+          <button class="dropbtn">Genres
+            <i class="fa fa-caret-down"></i></button>
           <div class="dropdown-content">
-          <a href="Action.html">Action</a>
-          <a href="Comedy.html">Comedy</a>
-          <a href="Romance.html">Romance</a>
-          <a href="PeriodDramas.html">Period Dramas</a>
-          <a href="RagstoRiches.html">Rags to Riches</a>
+            <a href="Action.html">Action</a>
+            <a href="Comedy.html">Comedy</a>
+            <a href="PeriodDramas.html">Period Dramas</a>
+            <a href="Romance.html" class="active1">Romance</a>
+            <a href="RagstoRiches.html">Rags to Riches</a>
           </div>
-      </div>
-      <div class="dropdown"><a href="Origin.html">Origin</a>
-          <i class="fa fa-caret-down"></i>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Origin
+            <i class="fa fa-caret-down"></i></button>
         <div class="dropdown-content">
           <a href="LatinAmerica.html">Latin America</a>
           <a href="Asia.html">Asia</a>
         </div>
-        </div>
-      <a href="request.html">Request</a>
-      <input type="text" placeholder="Search..">
+      </div>
+      <a href="request.html">Blog/News</a>
+      <input type="text" placeholder="Search">
     </div>
-</header>
+  </header>
+
     <main>
 
       <article>
@@ -247,10 +168,16 @@ $(window).load(function() {
           With shows from Latin America and Asia, the latest industry news and blogs of fellow foreign language soap opera enthuisiats, you can find everthing you need for drama fix!
         </p>
       </article>
+      <footer>
+        <p>&copy 2018. All rights reserved.</p>
+      </footer>
     </main>
-    <footer>
-      <p>&copy 2018. All rights reserved.</p>
-    </footer>
+
+    <script>
+    $(window).load(function() {
+    $('.blueberry').blueberry();
+    });
+    </script>
 
 
   </body>
