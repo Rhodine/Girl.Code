@@ -5,179 +5,277 @@
     <title>Press Play - Comedy</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/PressPlay.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="jquery.blueberry.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,
+  initial-scale=1.0">
+
+
+
+  <style type="text/css">
+    head{
+      background-color: #ff9999;
+      color: white;
+    }
+    body{
+      background-color: #ff9999;
+    }
+    main{
+      background-color: black;
+    margin: auto;
+    width: 98%;
+    margin-top: 100px;
+    border: 3px solid #white;
+    padding: 10px;
+    margin-left: 1%;
+    margin-right: auto;
+    border-radius: 25px;
+    font-family: verdana;
+
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 25%;
+  padding: 7px;
+}
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+</style>
+
+  <style>
+  img:hover {
+      animation: shake 0.5s;
+      animation-iteration-count: infinite;
+  }
+
+  @keyframes shake {
+      0% { transform: translate(1px, 1px) rotate(0deg); }
+      10% { transform: translate(-1px, -2px) rotate(-1deg); }
+      20% { transform: translate(-3px, 0px) rotate(1deg); }
+      30% { transform: translate(3px, 2px) rotate(0deg); }
+      40% { transform: translate(1px, -1px) rotate(1deg); }
+      50% { transform: translate(-1px, 2px) rotate(-1deg); }
+      60% { transform: translate(-3px, 1px) rotate(0deg); }
+      70% { transform: translate(3px, 1px) rotate(-1deg); }
+      80% { transform: translate(-1px, -1px) rotate(1deg); }
+      90% { transform: translate(1px, 2px) rotate(0deg); }
+      100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+    }
+    input{
+      background-color: #ff9999;
+      font-family: monospace;
+      border-radius: 25px;
+      border: 2px solid #73AD21;
+      padding: 20px;
+      width: 200px;
+      height: 150px;
+    }
+
+</style>
   </head>
 
   <body>
-    <header>
+<header>
     <div class="navbar">
-      <img src="images/Logo.png" alt="logo" class="navlogo">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-        <div class="dropdown">
-          <button class="dropbtn">Genres
-            <i class="fa fa-caret-down"></i></button>
+        <img src="images/Logo.png" alt="logo"/>
+      <a  href="index.html" class= "active">Home</a>
+      <a href="about.html" class="active">About</a>
+      <div class="dropdown"><a href="Genres.html">Genres</a>
+          <i class="fa fa-caret-down"></i>
           <div class="dropdown-content">
-            <a href="Action.html">Action</a>
-            <a href="Comedy.html" class="active1">Comedy</a>
-            <a href="PeriodDramas.html">Period Dramas</a>
-            <a href="Romance.html">Romance</a>
-            <a href="RagstoRiches.html">Rags to Riches</a>
+          <a href="Action.html">Action</a>
+          <a href="Comedy.html">Comedy</a>
+          <a href="Romance.html">Romance</a>
           </div>
-        </div>
-        <div class="dropdown">
-          <button class="dropbtn">Origin
-            <i class="fa fa-caret-down"></i></button>
+      </div>
+      <div class="dropdown"><a href="Origin.html">Origin</a>
+          <i class="fa fa-caret-down"></i>
         <div class="dropdown-content">
           <a href="LatinAmerica.html">Latin America</a>
           <a href="Asia.html">Asia</a>
         </div>
-      </div>
-      <a href="request.html">Blog/News</a>
-      <input type="text" placeholder="Search">
+        </div>
+      <a href="request.html">Request</a>
+      <input type="text" placeholder="Search..">
     </div>
-  </header>
-
+</header>
     <main>
 
       <article>
-        <h1>Comedy</h1>
+        <h1 align="Left" style="font-family:verdana; font-size: 255%">Comedy</h1>
+        <br>
 <picture>
     <table>
         <tr>
           <div class="row">
                 <div class="column">
-                    <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\HEALER.jpg" alt="Healer" style="width:100%">
+                    <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co1.jpg" alt="Come Back Mister" style="width:100%"></a>
+                        <h5>Come Back Mister</h5>
             </div>
                 <div class="column">
-                    <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\house of paper.jpg" alt="House of Paper" style="width:105%">
+                    <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co2.jpg" alt="Lalola" style="width:105%"></a>
+                        <h5>Lalola</h5>
             </div>
                 <div class="column">
-                    <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\terius2.jpg" alt="Terius" style="width:104%">
+                    <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co3.jpg" alt="Master's Sun" style="width:104%"></a>
+                        <h5>Master's Sun</h5>
             </div>
                 <div class="column">
-                    <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\k22.jpg" alt="The K2" style="width:100%">
+                    <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co4.jpg" alt="Rebelde" style="width:100%"></a>
+                        <h5>Rebelde</h5>
             </div>
                 <div class="column">
-                    <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\moorim.jpg" alt="Moorim" style="width:100%">
+                    <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co5.jpg" alt="It's Okay. That's Love" style="width:100%"></a>
+                        <h5>It's Okay. That's Love</h5>
             </div>
                 <div class="column">
-                    <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\surrounded.jpg" alt="Surrounded" style="width:100%">
+                    <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co6.jpg" alt="Oye Bonita" style="width:100%"></a>
+                        <h5>Oye Bonita</h5>
             </div>
                 <div class="column">
-                    <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\vampire detective.jpg" alt="Vampire Detective" style="width:100%">
+                    <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co7.jpg" alt="Oh my Venus" style="width:100%"></a>
+                        <h5>Oh My Venus</h5>
             </div>
                 <div class="column">
-                    <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\Mexico.jpg" alt="Mexico" style="width:100%">
+                    <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co8.jpg" alt="Perro Amor" style="width:100%"></a>
+                        <h5>Perro Amor</h5>
             </div>
         </div>
       </tr>
       <tr>
         <div class="row">
               <div class="column">
-                  <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\HEALER.jpg" alt="Healer" style="width:100%">
+                  <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co.1.jpg" alt="Playful Kiss" style="width:100%"></a>
+                      <h5>Playful Kiss</h5>
           </div>
               <div class="column">
-                  <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\house of paper.jpg" alt="House of Paper" style="width:105%">
+                  <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co.2.jpg" alt="Santo Cachon" style="width:105%"></a>
+                      <h5>Santo Cachon</h5>
           </div>
               <div class="column">
-                  <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\terius2.jpg" alt="Terius" style="width:104%">
+                  <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co.3.jpg" alt="Reply 1997" style="width:104%"></a>
+                      <h5>Reply 1997</h5>
           </div>
               <div class="column">
-                  <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\k22.jpg" alt="The K2" style="width:100%">
+                  <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co.4.jpg" alt="Don't Blame the Kid" style="width:100%"></a>
+                      <h5>Don't Blame the Kid</h5>
           </div>
               <div class="column">
-                  <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\moorim.jpg" alt="Moorim" style="width:100%">
+                  <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co.5.jpg" alt="Another Miss Oh" style="width:100%"></a>
+                      <h5>Another Miss Oh</h5>
           </div>
               <div class="column">
-                  <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\surrounded.jpg" alt="Surrounded" style="width:100%">
+                  <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co.6.jpg" alt="Macho" style="width:100%"></a>
+                      <h5>Macho</h5>
           </div>
               <div class="column">
-                  <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\vampire detective.jpg" alt="Vampire Detective" style="width:100%">
+                  <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co.7.jpg" alt="Si Saben Como Me Pongo Pa Que Me Invitan" style="width:100%"></a>
+                      <h5>Si Saben Como Me Pongo Pa Que Me Invitan</h5>
           </div>
               <div class="column">
-                  <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\Mexico.jpg" alt="Mexico" style="width:100%">
+                  <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co.8.jpg" alt="Hey Ghost, Let's Fight!" style="width:100%"></a>
+                      <h5>Hey Ghost, Lets Fight!</h5>
           </div>
       </div>
     </tr>
     <tr>
       <div class="row">
             <div class="column">
-                <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\HEALER.jpg" alt="Healer" style="width:100%">
+                <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co-1.jpg" alt="Sin Filtro" style="width:100%"></a>
+                    <h5>Sin Filtro</h5>
         </div>
             <div class="column">
-                <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\house of paper.jpg" alt="House of Paper" style="width:105%">
+                <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co-2.jpg" alt="Pinocchio" style="width:105%"></a>
+                    <h5>Pinocchio</h5>
         </div>
             <div class="column">
-                <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\terius2.jpg" alt="Terius" style="width:104%">
+                <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co-3.jpg" alt="El Vato" style="width:104%"></a>
+                    <h5>El Vato</h5>
         </div>
             <div class="column">
-                <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\k22.jpg" alt="The K2" style="width:100%">
+                <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co-4.jpg" alt="Introverted Boss" style="width:100%"></a>
+                    <h5>Introverted Boss</h5>
         </div>
             <div class="column">
-                <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\moorim.jpg" alt="Moorim" style="width:100%">
+                <img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co-5.jpg" alt="La Ultima Fiesta" style="width:100%"></a>
+                    <a href=""><h5>La Ultima Fiesta</h5>
         </div>
             <div class="column">
-                <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\surrounded.jpg" alt="Surrounded" style="width:100%">
+                <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co-6.jpg" alt="Cunning Single Lady" style="width:100%"></a>
+                    <h5>Cunning Single Lady</h5>
         </div>
             <div class="column">
-                <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\vampire detective.jpg" alt="Vampire Detective" style="width:100%">
+                <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co-7.jpeg" alt="Silvana Sinlana" style="width:100%"></a>
+                    <h5>Silvana Sinlana</h5>
         </div>
             <div class="column">
-                <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\Mexico.jpg" alt="Mexico" style="width:100%">
+                <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co-8.jpg" alt="Full House Take 2 " style="width:100%"></a>
+                    <h5>Full House Take 2</h5>
         </div>
     </div>
   </tr>
   <tr>
     <div class="row">
           <div class="column">
-              <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\HEALER.jpg" alt="Healer" style="width:100%">
+              <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co@1.jpg" alt="To the Beautiful You" style="width:100%"></a>
+                  <h5>To the Beautiful You</h5>
       </div>
           <div class="column">
-              <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\house of paper.jpg" alt="House of Paper" style="width:105%">
+              <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co@2.jpg" alt="Caida Del Cielo" style="width:105%"></a>
+                  <h5>Caida Del Cielo</h5>
       </div>
           <div class="column">
-              <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\terius2.jpg" alt="Terius" style="width:104%">
+              <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co@3.jpg" alt="Bride of the Century" style="width:104%"></a>
+                  <h5>Bride of the Century</h5>
       </div>
           <div class="column">
-              <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\k22.jpg" alt="The K2" style="width:100%">
+              <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co@4.jpg" alt="Embarazados" style="width:110%"></a>
+                  <h5>Embarazados</h5>
       </div>
           <div class="column">
-              <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\moorim.jpg" alt="Moorim" style="width:100%">
+              <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co@5.jpg" alt="Flower Boys Next Door" style="width:100%"></a>
+                  <h5>Flower Boys Next Door</h5>
       </div>
           <div class="column">
-              <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\surrounded.jpg" alt="Surrounded" style="width:100%">
+              <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co@6.jpg" alt="One Day at a Time" style="width:100%"></a>
+                  <h5>One Day at a Time</h5>
       </div>
           <div class="column">
-              <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\vampire detective.jpg" alt="Vampire Detective" style="width:100%">
+              <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co@7.jpg" alt="My Horrible Boss" style="width:100%"></a>
+                <h5>My Horrible Boss</h5>
       </div>
           <div class="column">
-              <img src="C:\Users\Graci\Documents\Girl Code Press Play\the project\Mexico.jpg" alt="Mexico" style="width:100%">
+              <a href=""><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\co@8.jpg" alt="Jefe" style="width:100%"></a>
+                  <h5>Jefe</h5>
       </div>
   </div>
 </tr>
   </table>
 </picture>
         <br>
-        <p>Press play is your one stop shop for foreign language soap operas.
-          This website was created out of a love for all the cheesy, over the top, romantic elements of a great soap opera coupled with the distinct culture of the Asian and Latin American market.
-          With shows from Latin America and Asia, the latest industry news and blogs of fellow foreign language soap opera enthuisiats, you can find everthing you need for drama fix!
-        </p>
-      </article>
-      <footer>
-        <p>&copy 2018. All rights reserved.</p>
-      </footer>
-    </main>
 
-    <script>
-    $(window).load(function() {
-    $('.blueberry').blueberry();
-    });
-    </script>
+      </article>
+    </main>
+    <footer>
+      <p>&copy 2018. All rights reserved.</p>
+    </footer>
+
 
   </body>
 </html>
