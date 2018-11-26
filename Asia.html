@@ -13,40 +13,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-  <style type="text/css">
-    .column {
-      float: left;
-      width: 25%;
-      padding: 5px;
-    }
-
-    .row::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
-    .row {
-      display: flex;
-    }
-
-    .column {
-      flex: 25%;
-      padding: 7px;
-    }
-    @media screen and (max-width: 500px) {
-      .column {
-        width: 100%;
-      }
-
-  </style>
-</head>
-
 <body>
   <header>
   <div class="navbar">
     <img src="images/Logo.png" alt="logo" class="navlogo">
-    <a href="index.html" class="active">Home</a>
-    <a href="about.html" class="active">About</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
     <div class="dropdown">
       <button onclick="myFunction()" class="dropbtn">Genres
         <i class="fa fa-caret-down"></i></button>
@@ -59,14 +31,14 @@
       </div>
     </div>
     <div class="dropdown">
-      <button onclick="myFunction()" class="dropbtn">Origin
+      <button class="dropbtn">Origin
         <i class="fa fa-caret-down"></i></button>
       <div class="dropdown-content">
         <a href="LatinAmerica.html">Latin America</a>
-        <a href="Asia.html" class="active">Asia</a>
+        <a href="Asia.html" class="active1">Asia</a>
       </div>
     </div>
-    <a href="request.html">Blog/News</a>
+    <a href="News.html">Blog/News</a>
     <input type="text" placeholder="Search">
   </div>
 </header>
