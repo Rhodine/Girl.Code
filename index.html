@@ -13,22 +13,23 @@
   <body>
     <header>
     <div class="navbar">
-      <img src="images/Logo.png" alt="logo" class="navlogo"/>
-      <a href="index.html" class= "active">Home</a>
-      <a href="about.html" class="active">About</a>
+      <img src="images/Logo.png" alt="logo" class="navlogo">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
       <div class="dropdown">
-          <a href="Genres.html">Genres</a>
-          <i class="fa fa-caret-down"></i>
+        <button onclick="myFunction()" class="dropbtn">Genres
+          <i class="fa fa-caret-down"></i></button>
         <div class="dropdown-content">
-          <a href="Classics.html">Action</a>
+          <a href="Action.html">Action</a>
           <a href="Comedy.html">Comedy</a>
           <a href="PeriodDramas.html">Period Dramas</a>
           <a href="Romance.html">Romance</a>
           <a href="RagstoRiches.html">Rags to Riches</a>
         </div>
       </div>
-      <div class="dropdown"><a href="Origin.html">Origin</a>
-          <i class="fa fa-caret-down"></i>
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Origin
+          <i class="fa fa-caret-down"></i></button>
         <div class="dropdown-content">
           <a href="LatinAmerica.html">Latin America</a>
           <a href="Asia.html">Asia</a>
@@ -136,5 +137,28 @@
       <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
       <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
     </footer>
+    <script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
   </body>
 </html>
