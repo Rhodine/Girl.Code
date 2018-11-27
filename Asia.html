@@ -1,94 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Origin Asia</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <title>Origin-Asia</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/PressPlay.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-  <style type="text/css">
-
-  text-align: left;
-  font-family:verdana;
-
-    head{
-      background-color: #ff9999;
-      color: white;
-    }
-    body{
-      background-color: #ff9999;
-      text-align: left;
-      font-family:verdana;
-    }
-    main{
-      background-color: black;
-    margin: auto;
-    width: 98%;
-    margin-top: 100px;
-    border: 3px solid #white;
-    padding: 10px;
-    margin-left: 1%;
-    margin-right: auto;
-    border-radius: 25px;
-}
-    .column {
-      float: left;
-      width: 25%;
-      padding: 5px;
-    }
-
-    .row::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
-    .row {
-      display: flex;
-    }
-
-    .column {
-      flex: 25%;
-      padding: 7px;
-    }
-    @media screen and (max-width: 500px) {
-      .column {
-        width: 100%;
-      }
-    }
-
-  </style>
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
   <header>
     <div class="navbar">
-      <img src="images/Logo.png" alt="logo"/>
-    <a  href="index.html" class= "active">Home</a>
-    <a href="about.html" class="active">About</a>
-    <div class="dropdown"><a href="Genres.html">Genres</a>
-        <i class="fa fa-caret-down"></i>
+      <img src="images/Logo.png" alt="logo" class="navlogo">
+      <a href="index.html" class="active1">Home</a>
+      <a href="about.html">About</a>
+      <div class="dropdown">
+        <button class="dropbtn">Genres
+          <i class="fa fa-caret-down"></i>
+        </button>
         <div class="dropdown-content">
-        <a href="Action.html">Action</a>
-        <a href="Comedy.html">Comedy</a>
-        <a href="Romance.html">Romance</a>
+          <a href="Action.html">Action</a>
+          <a href="Comedy.html">Comedy</a>
+          <a href="Romance.html">Romance</a>
         </div>
-    </div>
-    <div class="dropdown"><a href="Origin.html">Origin</a>
-        <i class="fa fa-caret-down"></i>
-      <div class="dropdown-content">
-        <a href="LatinAmerica.html">Latin America</a>
-        <a href="Asia.html">Asia</a>
       </div>
+      <div class="dropdown">
+        <button class="dropbtn">Origin
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="LatinAmerica.html">Latin America</a>
+          <a href="Asia.html" class="active1">Asia</a>
+        </div>
       </div>
-    <a href="request.html">Request</a>
-    <input type="text" placeholder="Search..">
+      <a href="News.html">Blog/News</a>
+      <input type="text" placeholder="Search">
     </div>
   </header>
-
 <main>
 <div class="container">
   <h2 align="left" style="font-family:verdana;">Featured:</h2>
@@ -106,7 +57,7 @@
     <div class="carousel-inner">
 
       <div class="item active">
-      <a href="https://www.youtube.com/watch?v=Te0fyme2ZkI"><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\asian 2.png" alt="Mama Fairy and the Woodcutter" style="width:100%;"></a>
+      <a href="https://www.youtube.com/watch?v=Te0fyme2ZkI"><img src="Images\asian 2.png" alt="Mama Fairy and the Woodcutter" style="width:100%;"></a>
 
         <div class="carousel-caption">
           <h3><strong>Mama Fairy and the Woodcutter</strong></h3>
@@ -114,14 +65,14 @@
       </div>
 
       <div class="item">
-        <a href="https://www.youtube.com/watch?v=6GK7aJr8T6U"><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\asian 1.png" alt="Feel Good to Die" style="width:100%;"></a>
+        <a href="https://www.youtube.com/watch?v=6GK7aJr8T6U"><img src="Images\asian 1.png" alt="Feel Good to Die" style="width:100%;"></a>
         <div class="carousel-caption">
           <h3><strong>Feel Good to Die</strong></h3>
         </div>
       </div>
 
       <div class="item">
-        <a href="https://www.youtube.com/watch?v=XAeEFvOCvrM"><img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\asian 3.png" alt="God's Quiz" style="width:100%;"></a>
+        <a href="https://www.youtube.com/watch?v=XAeEFvOCvrM"><img src="Images\asian 3.png" alt="God's Quiz" style="width:100%;"></a>
         <div class="carousel-caption">
           <h3><strong>God's Quiz</strong></h3>
         </div>
@@ -148,36 +99,36 @@
     <tr>
       <div class="row">
             <div class="column">
-                <img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\a1.jpg" alt="My Mister" style="width:100%">
+                <img src="Images\a1.jpg" alt="My Mister" style="width:100%">
                   <span title="This drama tells the story of three middle-aged brothers, who are enduring the weight of their lives, and a strong, cold woman, who has been living a hard life of her own, as they come together in healing each other’s past scars.">My Mister</span>
         </div>
             <div class="column">
-                <img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\a2.jpg" alt="Mr. Sunshine" style="width:105%">
+                <img src="Images\a2.jpg" alt="Mr. Sunshine" style="width:105%">
                 <span title="This drama tells the story of a young boy who travels to the United States during the 1871 Shinmiyangyo (U.S. expedition to Korea), and returns to his homeland later as an American soldier. He then meets and falls in love with an aristocrat’s daughter.">Mr. Sunshine</span>
         </div>
             <div class="column">
-                <img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\a3.jpg" alt="100 Days My Prince" style="width:104%">
+                <img src="Images\a3.jpg" alt="100 Days My Prince" style="width:104%">
                   <span title="Lee Yool (D.O.) is a Crown Prince. He falls off a cliff and nearly dies in an attempted assassination. He loses his memory, and wanders for 100 days under a new name and personality. During this period, he meets Hong Sim (Nam Ji Hyun), head of the first detective agency in Joseon.">100 Days My Prince</span>
 
         </div>
             <div class="column">
-                <img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\a4.jpg" alt="A Korean Odyssey" style="width:110%">
+                <img src="Images\a4.jpg" alt="A Korean Odyssey" style="width:110%">
                   <span title="The story depicts the journey of seeking true light in the dark world of 2017 where the evil gods are widespread. In 2017, Son Oh Gong (Lee Seung Ki) and King Wooma (Cha Seung Won) are in conflict with each other and they look for a true light in a dark world where evils exists everywhere.">A Korean Odyssey</span>
         </div>
             <div class="column">
-                <img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\a5.jpg" alt="Suits" style="width:105%">
+                <img src="Images\a5.jpg" alt="Suits" style="width:105%">
                   <span title="This drama is based on the U.S. drama series “Suits” that has aired on the cable USA Network since 2011. Choi Kyung Seo (Jang Dong Gun) is a legendary lawyer at the top law firm in South Korea. He has charisma and an attractive appearance. He hires Go Yun Woo (Park Hyung Shik) as a rookie lawyer for the law firm. Go Yun Woo has excellent memory.">Suits</span>
         </div>
             <div class="column">
-                <img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\a6.jpg" alt="Switch: Change the World" style="width:100%">
+                <img src="Images\a6.jpg" alt="Switch: Change the World" style="width:100%">
                   <span title="The series explores the gray area between legal and illegal. A man is a swindler. He is smart enough to take the bar exam, but he could not become a prosecutor. Disregarding favoritism and biases by prosecutors, the man makes criminals pay for crimes that prosecutors did not.">Switch: Change the World</span>
         </div>
             <div class="column">
-                <img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\a7.jpg" alt="Uncontrollably Fond" style="width:100%">
+                <img src="Images\a7.jpg" alt="Uncontrollably Fond" style="width:100%">
                   <span title="When Shin Joon-Young (Kim Woo-Bin) and No Eul (Bae Suzy) were children, they were separated and became heartbroken. As adults they meet again. Shin Joon-Young is now a top actor and singer. He is intelligent and attractive. No Eul is the PD of documentaries. She values money over justice and kisses up to those with more power than her.">Uncontrollably Fond</span>
         </div>
             <div class="column">
-                <img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\a8.jpg" alt="Cheese in the Trap" style="width:100%">
+                <img src="Images\a8.jpg" alt="Cheese in the Trap" style="width:100%">
                   <span title="This drama depicts the relationship between female university student Hong Seol (Kim Go Eun) and her senior Yoo Jung (Park Hae Jin). Hong Seol is a hard-working student, who has returned to college after a long break. She works part-time due to her family’s poor background. Meanwhile, Yoo Jung is a senior at the college known as Mr. Perfect. ">Cheese in the Trap</span>
         </div>
     </div>
@@ -185,35 +136,35 @@
   <tr>
     <div class="row">
           <div class="column">
-              <img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\a9.jpg" alt="Cinderella with Four Knights" style="width:100%">
+              <img src="Images\a9.jpg" alt="Cinderella with Four Knights" style="width:100%">
                 <span title="Eun Ha Won (Park So Dam) is a high school student who dreams to be a veterinarian, but needs money for her education. She ends up living in a mansion, Sky House, with three third-generation chaebol cousins under same conditions. Kang Hyun Min (Ahn Jae Hyun) is a playboy plutocrat who does whatever he wants while Kang Ji Woon (Jung Il Woo) is soft hearted but lonely and wild-child rebel who rises in status to a member of the royal family in the Sky House. ">Cinderella with Four Knights</span>
       </div>
           <div class="column">
-              <img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\a10.jpg" alt="Shopping King Louie" style="width:105%">
+              <img src="Images\a10.jpg" alt="Shopping King Louie" style="width:105%">
                 <span title="A romantic comedy about Louie (Seo In Guk), a rich heir who, due to his frustration of not being able to remember his past, always spends money to buy anything indifferently. One day she meets Bok Shil (Nam Ji Hyun), a pure and energetic woman who teaches him that love isn’t something money can buy.">Shopping King Louie</span>
       </div>
           <div class="column">
-              <img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\a11.jpg" alt="Lucky Romance" style="width:104%">
+              <img src="Images\a11.jpg" alt="Lucky Romance" style="width:104%">
                 <span title="This drama is about superstitious woman who tries to change her foretold fate by seducing a virgin and nerd guy. Shim Bo Nui (Hwang Jung Eum) is a superstitious woman who relies too much in fortune-telling because of repeated misfortunes that befall her in the past. One day she gets to know that if she doesn’t sleep with a virgin man born in 1986 (year of tiger), she will die soon. She then meets an incredibly stingy guy Je Soo Ho (Ryu Joon Yul).">Lucky Romance</span>
       </div>
           <div class="column">
-              <img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\a12.jpg" alt="Dr. Romantic" style="width:105%">
+              <img src="Images\a12.jpg" alt="Dr. Romantic" style="width:105%">
                 <span title="Kim Sa Bu (Han Suk Kyu) was once a famous surgeon at the peak of his career at a major hospital. But he suddenly gives it all up one day to live in seclusion and work as a neighborhood doctor in a small town. He now goes by “Teacher Kim” and refers to himself as the “Romantic Doctor”. ">Dr. Romantic</span>
       </div>
           <div class="column">
-              <img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\a13.jpg" alt="Madame Antoine: The Love Therapist" style="width:100%">
+              <img src="Images\a13.jpg" alt="Madame Antoine: The Love Therapist" style="width:100%">
                 <span title="This is a Romantic-Comedy drama revolved around psychological themes, and viewers will get to experience a wide range of emotions as they follow the onscreen medical experts’ lives. Go Hye Rim (Han Ye Seul) is a famous fortune-teller. She is known as “Madame Antoine” and insists that she is spiritually connected to Marie Antoinette, but that part is a lie. She is able to see through people’s stories due to her intelligence and keen sense.">Madame Antoine: The Love Therapist</span>
       </div>
           <div class="column">
-              <img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\a14.jpg" alt="Goodbye Mr.Black" style="width:100%">
+              <img src="Images\a14.jpg" alt="Goodbye Mr.Black" style="width:100%">
                 <span title="Cha Ji Won (Lee Jin Wook) is a highly trained Navy SEAL officer who is a member of the special Underwater Demolition Team. When Ji Won’s best friend within the Navy Special Operations Force betrays him, Ji Won is denounced as a traitor and sent to another country. After narrowly escaping many attempts on his life, Ji Won plots his revenge. He enters into a fake marriage with Swan (Moon Chae Won) to secure a new identity and returns to Korea to execute his revenge plan.">Goodbye Mr.Black</span>
       </div>
           <div class="column">
-              <img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\a15.jpg" alt="Drinking Solo" style="width:102%">
+              <img src="Images\a15.jpg" alt="Drinking Solo" style="width:102%">
                 <span title="This drama is about the slice-of-life and daily activities around the teachers, students, staffs of a private institution that prepares for civil service exam around the area of Seoul’s Noryangjin. The characters like to drink alone afterwork for their own reasons. ">Drinking Solo</span>
       </div>
           <div class="column">
-              <img src="C:\Users\Graci\Documents\Girl Code Press Play\Girl.Code-master\Images\a16.jpg" alt="Age of Youth" style="width:103%">
+              <img src="Images\a16.jpg" alt="Age of Youth" style="width:103%">
                 <span title="A cheerful, upbeat, youthful drama featuring five women roommates living in the same house, each with her own personality, dating style, taste in men, and area of expertise. It’ll deal with a variety of issues that modern women deal with, whether it’s dating or sex or interpersonal relationships. ">Age of Youth</span>
       </div>
     </div>
@@ -221,6 +172,13 @@
   </table>
   </picture>
   </article>
+  <footer>
+    <p>&copy 2018. All rights reserved.</p>
+    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/" class="fa fa-twitter"></a>
+    <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+    <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+  </footer>
 </main>
 </body>
 </html>
