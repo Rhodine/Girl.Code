@@ -132,5 +132,20 @@
         <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
       </footer>
     </main>
+    <script>
+      // invoke the carousel
+      $('#myCarousel').carousel({
+        interval: false
+      }).on('slide.bs.carousel', function () {
+        document.getElementById('player').pause();
+        document.getElementById('player1').pause();
+        document.getElementById('player2').pause();
+        document.getElementById('player3').pause();
+        document.getElementById('player4').pause();
+        document.getElementById('player5').pause();
+        document.getElementById('player6').pause();
+        document.getElementById('player7').pause();
+      });
+    </script>
   </body>
 </html>
