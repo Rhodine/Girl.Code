@@ -227,6 +227,9 @@ footer{
   color: white;
   font-size: 30px;
 }
+footer p{
+  font-size: 60%;
+}
 carousel-inner{
   margin: auto;
 }
